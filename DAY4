@@ -1,0 +1,3 @@
+select * from employees;
+
+select ID,Name from employees where salary>10000;
