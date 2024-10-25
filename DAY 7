@@ -1,0 +1,4 @@
+ select Department,count(*)  As total_employee_count from employees 
+ group by Department
+ having count(*)>2
+ order by total_employee_count;
