@@ -1,0 +1,9 @@
+Insert 2 new rows of data (employee details) into the employees table.
+-INSERT INTO  Employees(ID,Name,Email_Address,Department,Date_of_Birth,Salary,Is_Active) values
+(1,'joh','joh@gmail.com','Tech','1997-01-13',10000,True),
+(2,'roey','roey@gmail.com','Sales','1999-06-30',15000,True);
+
+Update the salary of the employee with ID 2 to 75000.
+--UPDATE employees SET Salary=75000 WHERE  ID=2;
+Delete the employee with ID 1 from the employees table.
+- DELETE FROM employees WHERE ID=1;
