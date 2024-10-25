@@ -1,0 +1,6 @@
+1. Write a SQL query to return a list of all possible combinations of employees and departments.
+--SELECT e.EmployeeName, d.DepartmentName FROM Employee e CROSS JOIN Department d;
+
+2. Write a SQL query to return the list of employees who belong to atleast one department.
+--SELECT e.EmployeeName, d.DepartmentName FROM Employee e INNER JOIN Department d WHERE e.DepartmentID = d.DepartmentID;
+3.
